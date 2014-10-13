@@ -2,7 +2,7 @@
   "name": "configexport",
   "version": "1.0.0",
   "description": "Exporting modules of nodejs through index files",
-  "main": "gulpfile.js",
+  "main": "lib/configexport.js",
   "directories": {
     "test": "test"
   },
@@ -25,7 +25,9 @@
     "url": "https://github.com/yashprit/configexport/issues"
   },
   "homepage": "https://github.com/yashprit/configexport",
-  "dependencies": {
-    "underscore": "^1.7.0"
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-nodeunit": "0.0.5",
+    "gulp-jshint": "^1.8.5"
   }
 }
