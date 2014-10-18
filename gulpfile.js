@@ -16,7 +16,7 @@ gulp.task('lint', function() {
 });
 
 gulp.task('test', function () {
-  gulp.src('**/*.test.js')
+  gulp.src('./test/*.test.js')
     .pipe(nodeunit({
       reporter: 'junit',
       reporterOptions: {
@@ -24,5 +24,3 @@ gulp.task('test', function () {
     }
   }));
 });
-
-
