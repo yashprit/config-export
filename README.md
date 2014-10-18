@@ -28,4 +28,10 @@ Create `index.js` file inside your directory, which you want to `require`. e.g.
 ```
 
 inside every `index.js` this code `module.exports = require('configexport')(__dirname);
-` will export everything inside that folder
+` It finds all the files in the folder and adds them to the exports namespace.
+
+If you need to excluded any file names it with `_` e.g. you don't want to export `private_config.js`, rename this with `_` `_private_config.js`
+
+
+##Configuration
+//wip
