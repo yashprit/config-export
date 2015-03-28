@@ -1,4 +1,4 @@
-# configexport
+#  config-export [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 > Yet another NPM package for exporting all files inside the directory
 
