@@ -1,11 +1,11 @@
 'use strict';
 
 var
-  fs   = require('fs'),
+  fs = require('fs'),
   path = require('path'),
   _ = require('');
 
-module.exports = function (dir) {
+module.exports = function(dir) {
   var args = Array.prototype.splice.call(arguments);
   //first argument has to be dir
   var dir = args[0];
@@ -14,18 +14,18 @@ module.exports = function (dir) {
   var exludedFiles = args[1];
   var requires = {};
 
-  if(!dir) {
-     throw new Error("No Directory provided to load files");
+  if (!dir) {
+    throw new Error("No Directory provided to load files");
   }
 
   //get all files from provided directory
   var files = fs.readdirSync(dir);
 
-  if(exludedFiles){
+  if (exludedFiles) {
     files = _.difference(files, exludedFiles);
   }
 
-  files.forEach(function (file) {
+  files.forEach(function(file) {
     // ignore index.js and files prefixed with underscore and
     if (!(file === 'index.js' || file[0] === '_')) {
 

@@ -1,7 +1,7 @@
 'use strict';
 
-var mock = require('mock-fs')
-  , _ = require('underscore')
+var mock = require('mock-fs'),
+  _ = require('underscore')
 
 
 //sample test
