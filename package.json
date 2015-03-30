@@ -23,9 +23,7 @@
   },
   "homepage": "https://github.com/yashprit/config-export",
   "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-nodeunit": "0.0.5",
-    "gulp-jshint": "^1.8.5",
+    "mocha": "*",
     "mock-fs": "^2.3.1"
   }
 }
