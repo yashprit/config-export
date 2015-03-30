@@ -1,6 +1,6 @@
 {
   "name": "config-export",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Exporting modules of nodejs through index files",
   "main": "index.js",
   "scripts": {
