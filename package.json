@@ -1,17 +1,14 @@
 {
-  "name": "configexport",
-  "version": "0.0.1",
+  "name": "config-export",
+  "version": "0.0.2",
   "description": "Exporting modules of nodejs through index files",
-  "main": "lib/configexport.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/yashprit/configexport.git"
+    "url": "git://github.com/yashprit/config-export.git"
   },
   "keywords": [
     "require",
@@ -22,9 +19,9 @@
   "author": "Yashprit Singh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yashprit/configexport/issues"
+    "url": "https://github.com/yashprit/config-export/issues"
   },
-  "homepage": "https://github.com/yashprit/configexport",
+  "homepage": "https://github.com/yashprit/config-export",
   "devDependencies": {
     "gulp": "^3.8.8",
     "gulp-nodeunit": "0.0.5",
