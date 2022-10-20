@@ -24,6 +24,7 @@
   "homepage": "https://github.com/yashprit/config-export",
   "devDependencies": {
     "mocha": "10.1.0",
-    "mock-fs": "^5.1.4"
+    "mock-fs": "^5.1.4",
+    "underscore": "1.13.6"
   }
 }
