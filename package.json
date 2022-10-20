@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/yashprit/config-export",
   "devDependencies": {
-    "mocha": "*",
-    "mock-fs": "^2.3.1"
+    "mocha": "10.1.0",
+    "mock-fs": "^5.1.4"
   }
 }
