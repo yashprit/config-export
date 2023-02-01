@@ -13,5 +13,5 @@ exports['truth is true'] = {
     test.expect(1);
     test.ok(true, "Truth is true!");
     test.done();
-  },
+  }
 };
